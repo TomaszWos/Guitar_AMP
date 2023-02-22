@@ -1,4 +1,8 @@
 # Guitar_AMP
+Projekt wzmacniacza lampowego do domowego użytku. 
+Podczas projektowania korzystałem ze schematów kultowych konstrukcji takich firm jak Marshall, Fender czy Engl.
+Schematy dostępne na https://el34world.com/.
+
 **VER_1** 
 
 Pierwsza wersja wzmacniacza została oparta na schemacie AX84. 
