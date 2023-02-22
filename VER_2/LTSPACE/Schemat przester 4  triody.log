@@ -1,0 +1,28 @@
+Circuit: * C:\Users\Jacek\Downloads\EL84-SE-20220803T134514Z-001\EL84-SE\Schemat przester 4 triody.asc
+
+WARNING: Node N017 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by V4.
+WARNING: Less than two connections to node N017.  This node is used by V4.
+Per .tran options, skipping operating point for transient analysis.
+.fourier quantity "V(out)" not pressent in data.
+
+
+Date: Mon Feb 20 15:38:34 2023
+Total elapsed time: 52.365 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5404604
+traniter = 5404604
+tranpoints = 1380185
+accept = 996066
+rejected = 384119
+matrix size = 149
+fillins = 77
+solver = Normal
+Thread vector: 15.6/3.7[6] 1.0/0.6[6] 4.9/0.6[6] 0.3/0.8[1]  2592/500
+Matrix Compiler1: 8.95 KB object code size  1.5/0.8/[0.3]
+Matrix Compiler2: 10.90 KB object code size  0.6/1.0/[0.4]
+
