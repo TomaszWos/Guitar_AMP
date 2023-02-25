@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Valve:ECC83 U1
 U 2 1 62E2AB47
-P 2550 4100
-F 0 "U1" H 2778 4146 50  0000 L CNN
-F 1 "ECC83" H 2778 4055 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 2820 3700 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 2550 4100 50  0001 C CNN
-	2    2550 4100
+P 4800 1850
+F 0 "U1" H 5028 1896 50  0000 L CNN
+F 1 "ECC83" H 5028 1805 50  0000 L CNN
+F 2 "Valve:Valve_Noval_P" H 5070 1450 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 4800 1850 50  0001 C CNN
+	2    4800 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -807,17 +807,6 @@ Connection ~ 7750 3850
 Wire Wire Line
 	7750 3850 8100 3850
 Connection ~ 4100 3450
-$Comp
-L Valve:ECC83 U3
-U 3 1 63FB62E0
-P 3900 7400
-F 0 "U3" H 3672 7271 50  0000 R CNN
-F 1 "ECC83" H 3672 7362 50  0000 R CNN
-F 2 "Valve:Valve_Noval_P" H 4170 7000 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3900 7400 50  0001 C CNN
-	3    3900 7400
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	4000 6500 4400 6500
 Wire Wire Line
@@ -1188,17 +1177,6 @@ F 3 "~" H 7000 2100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Valve:ECC83 U4
-U 1 1 64110B5B
-P 6450 1850
-F 0 "U4" H 6678 1896 50  0000 L CNN
-F 1 "ECC83" H 6678 1805 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 6720 1450 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 6450 1850 50  0001 C CNN
-	1    6450 1850
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR020
 U 1 1 64110B55
 P 6350 2750
@@ -1311,12 +1289,12 @@ $EndComp
 $Comp
 L Valve:ECC83 U3
 U 1 1 640605C8
-P 4800 1850
-F 0 "U3" H 5028 1896 50  0000 L CNN
-F 1 "ECC83" H 5028 1805 50  0000 L CNN
-F 2 "Valve:Valve_Noval_P" H 5070 1450 50  0001 C CNN
-F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 4800 1850 50  0001 C CNN
-	1    4800 1850
+P 6450 1850
+F 0 "U3" H 6678 1896 50  0000 L CNN
+F 1 "ECC83" H 6678 1805 50  0000 L CNN
+F 2 "Valve:Valve_Noval_P" H 6720 1450 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 6450 1850 50  0001 C CNN
+	1    6450 1850
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1458,4 +1436,26 @@ Wire Wire Line
 Wire Wire Line
 	1650 1850 1550 1850
 Connection ~ 1550 1850
+$Comp
+L Valve:ECC83 U4
+U 2 1 63FF4519
+P 2550 4100
+F 0 "U4" H 2778 4146 50  0000 L CNN
+F 1 "ECC83" H 2778 4055 50  0000 L CNN
+F 2 "Valve:Valve_Noval_P" H 2820 3700 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 2550 4100 50  0001 C CNN
+	2    2550 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Valve:ECC83 U4
+U 3 1 63FFE0DD
+P 3900 7400
+F 0 "U4" H 3672 7271 50  0000 R CNN
+F 1 "ECC83" H 3672 7362 50  0000 R CNN
+F 2 "Valve:Valve_Noval_P" H 4170 7000 50  0001 C CNN
+F 3 "http://www.r-type.org/pdfs/ecc83.pdf" H 3900 7400 50  0001 C CNN
+	3    3900 7400
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
